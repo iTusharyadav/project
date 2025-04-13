@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/select"
 import { useDispatch, useSelector } from "react-redux";
 import { compilerSliceStateType, updateCurrentLanguage } from "@/redux/slices/compilerSlice";
+import { CompilerSliceStateType } from "@/redux/slices/compilerSlice";
 import { RootState } from "@/redux/store";
 
 export default function HelperHeader() {
