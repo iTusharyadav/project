@@ -49,8 +49,8 @@
 
 
 
-import { Button } from "./ui/button";
-import { Share2, Save } from "lucide-react";
+// import { Button } from "./ui/button";
+// import { Share2, Save } from "lucide-react";
 import {
     Select,
     SelectContent,
@@ -71,12 +71,12 @@ export default function HelperHeader() {
     return (
         <div className="__helper_header h-[50px] bg-black text-white p-2 flex justify-between items-center">
             <div className="__btn_container flex gap-1">
-                <Button className="flex justify-center items-center gap-1">
+{/*                 <Button className="flex justify-center items-center gap-1">
                     <Save size={16} />
                 </Button>
                 <Button className="flex justify-center items-center gap-1" variant="secondary">
                     <Share2 size={16} />
-                </Button>
+                </Button> */}
             </div>
             <div className="_tab_switcher flex justify-center items-center gap-1">
                 <small>Current Language:</small>
